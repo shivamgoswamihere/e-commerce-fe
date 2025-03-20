@@ -1,0 +1,65 @@
+.wrapper{
+    background-color: rgb(41, 72, 196);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logincard{
+    width: 50%;
+    height: 50%;
+    border: 1px solid rgba(0, 255, 247, 0.264);
+    border-radius: 5px ;
+    display: flex;
+}
+
+
+.cardleft{
+    background-color: rgba(0, 255, 247, 0.522);
+    color: rgba(255, 255, 255, 0.802);
+    border-radius: 5px 0 0 5px;
+    width:50%;
+    height: 100%;
+    padding: 2.4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+h1{
+    font-size: 30px;
+}
+
+
+.cardright{
+    background-color: rgba(255, 255, 255, 0.608);
+    border-radius:0 5px 5px 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardright span h4{
+    font-size: 15px;
+    padding-bottom: 10px;
+    
+}
+
+
+.cardright input{
+    border-radius: 5px;
+    
+}
+
+.buttonwrapper{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}

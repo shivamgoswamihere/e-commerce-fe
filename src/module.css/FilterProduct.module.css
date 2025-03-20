@@ -1,0 +1,12 @@
+.category{
+    padding: 8px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: baseline;
+    
+    gap: 10px;
+}
+
+.searchbox{
+    width: 10rem;
+}

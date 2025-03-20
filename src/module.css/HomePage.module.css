@@ -1,0 +1,39 @@
+.pagewrapper{
+    width: 100%;
+    /* height: 100vh; */
+    
+}
+
+.navbottom{
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.contentwrapper{
+    
+    display: flex;
+    height: 80%;
+    width: 100%;
+    
+}
+
+.aside, .main{
+    display: flex;
+    padding: 1%;
+    
+}
+
+.aside{
+    width: 15%;
+    background-color: rgba(218, 215, 215, 0.776);
+    
+}
+
+.main{
+    width: 86%;
+    background-color: rgba(210, 207, 207, 0.774);
+    
+}
